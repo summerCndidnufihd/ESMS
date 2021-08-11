@@ -1,0 +1,282 @@
+@charset "UTF-8";
+*{margin: 0;padding: 0;}
+		
+		/*body{
+			background: url(E:/images/sea2.jpg);
+			}*/
+		video{
+			position:fixed;
+			right:0px;
+			bottom:0px;
+			min-width:100%;
+			min-height:100%;
+			height:auto;
+			width:auto;
+			z-index:-100;
+		}
+		source{
+			min-width:100%;
+			min-height:100%;
+			height:auto;
+			width:auto;
+		}
+		#banner{
+			margin: 0 auto;
+			width: 1200px;
+			height: 270px;
+		}
+		
+		#nav{ 
+			margin: 0 auto;
+			width: 1200px;
+			height: 40px;
+			background: url(E:/images/xing.jpg);
+		}
+		
+		/*对导航中的列表项作修饰*/
+		#nav a{
+			color:white;
+		}
+		#nav ul li{
+		float: left;
+		display: block;
+		position:relative;
+		list-style: none;
+		padding:0 35px;
+		height:40px;
+		line-height: 40px;
+		}
+		#nav ul li:hover{
+		    text-decoration:underline;/*定义超链接的下划线，穿字线，闪烁等*/
+			display:inline-block;
+			background-color:pink;
+			color:blue;
+		}
+		#nav ul li ul li{
+			float:none;
+		}
+		/*将二级菜单设置为display:none;*/
+		ul li ul{position:absolute;top:40px;left:0;display:none;}
+		ul li ul li{background:pink;;z-index:999}
+		/*在划过二级菜单从属的一级菜单时，即先hover一级菜单，再出现二级菜单设置为block;*/
+		ul li:hover ul{display:block;}
+		#bod{
+			margin: 0 auto;
+			margin-top: -90px;
+			width: 1200px;
+			
+		}
+		#left{
+			margin:2px;
+			float:left;
+			width:300px;
+			height:670px;
+		}
+		#center{
+			margin:2px;
+			float:left;
+			width:500px;
+			height:670px;
+		}
+		#right{
+			margin:2px;
+			float:left;
+			width:372px;
+			height:670px;
+		}
+		#left_1{
+			
+			margin: 5px;
+			position: 5px;
+			width: 300px;
+			height: 300px;
+			background: greenyellow;
+		}
+		#left_2{
+			margin: 5px;
+			position: 5px;
+			width: 300px;
+			height: 360px;
+		}
+		
+		#center_demo1{
+			position: 5px;
+			height: 400px;
+			width:500px;
+			margin:5px 10px;
+			background: url(E:/images/sea2.jpg);
+		}
+		#center_demo2 img{
+			position: 5px;
+			height:200px;
+			width:500px;
+			margin:5px 10px;
+		}
+		#right_demo1{
+			position: 5px;
+			height:200px;
+			width:372px;
+			margin:5px 10px;
+			background: url(E:/images/114.jpg);
+		}
+		#right_demo2{
+			position: 5px;
+			height:360px;
+			width:372px;
+			margin:5px 10px;
+		}
+		#diary{background: url(E:/images/115.jpg);}
+		input[type=text]{
+			padding:10px 20px;/*设置字体内边距*/
+			margin:10px;/*外边距*/
+			box-sizing:border-box;/*保证设置内边距时宽度保留原来的，而不会增大*/
+			border:2px solid #00ffff;/*设置边框和颜色*/
+			border-radius:10px;/*给边框设置圆角*/
+			background-color:#f7f3ff;/*文本框设置背景颜色*/
+		}
+		input[type=password]{
+			padding:10px 20px;
+			margin:10px;
+			box-sizing:border-box;
+			border:2px solid #00ffff;
+			border-radius:10px;
+			background-color:#f7f3ff;
+		}
+		input[type=submit]{
+			width:70px;
+			padding:5px;
+			margin:10px;
+			box-sizing:border-box;
+			border:2px solid #000000;
+			border-radius:4px;
+			cursor:pointer;/*光标为小手*/
+			background-color:#f7f3ff;
+		}
+		/*给重置也设一样的效果*/
+		input[type=reset]{
+			width:70px;
+			padding:5px;
+			margin:10px;
+			box-sizing:border-box;
+			border:2px solid #000000;
+			border-radius:4px;
+			cursor:pointer;/*光标为小手*/
+			background-color:#f7f3ff;
+		}
+		/*给注册也设一样的效果*/
+		input[type=button]{
+			width:70px;
+			padding:5px;
+			margin:10px;
+			box-sizing:border-box;
+			border:2px solid #000000;
+			border-radius:4px;
+			cursor:pointer;/*光标为小手*/
+			background-color:#f7f3ff;
+		}
+		/*文本框获得焦点时产生的效果*/
+		input[type=text]:focus{
+			background-color: lightblue;
+			 border: 3px solid #555;
+		}
+		input[type=password]:focus{
+			background-color: lightblue;
+			 border: 3px solid #555;
+		}
+		#image{height:30px;width:1200px}
+		#bottom{
+			float:left;
+			margin: 0 auto;
+			margin-left: 30px;
+			width: 1200px;
+			
+		}
+		.stu{
+			font-size:30px;
+			font-family:隶书;
+			font-weight:bold;
+			color:#ffffff;
+			text-align:center;
+			margin:0 auto;
+			background: url(E:/images/113.jpg);
+		}
+		#guntu{
+			margin: 0 auto;
+			width: 1200px;
+			height: 130px;
+		}
+		#bottom_{
+			/*background: url(E:/images/sea4.jpeg);*/
+			height:150px;
+			width:1200px;
+			margin:0 auto;
+		}
+	
+		        
+		        a{
+		            text-decoration: none;
+		        }
+		        .container {
+		            position: relative;
+		            width: 300px;
+		            height: 430px;
+		            margin: 0 auto;
+		            box-shadow: 0 0 5px #00ffff;
+		            overflow: hidden;
+		        }
+		        .container .wrap {
+		            position: absolute;
+		            width: 4200px;
+		            height: 430px;
+		            z-index: 1;
+		        }
+		        .container .wrap img {
+		           float:left;
+		            width: 300px;
+		            height: 430px;
+					 margin: 0 auto;
+		        }
+		        .container .buttons {
+		            position: absolute;
+		            right: 5px;
+		            bottom:40px;
+		            width: 150px;
+		            height: 10px;
+		            z-index: 2;
+		        }
+		        .container .buttons span {
+		            margin-left: 5px;
+		            display: inline-block;
+		            width: 20px;
+		            height: 20px;
+		            border-radius: 50%;
+		            background-color: green;
+		            text-align: center;
+		            color:white;
+		            cursor: pointer;
+		        }
+		        .container .buttons span.on{
+		            background-color: red;
+		        }
+		        .container .arrow {
+		            position: absolute;
+		            top: 35%;
+		            color: green;
+		            padding:0px 14px;
+		            border-radius: 50%;
+		            font-size: 50px;
+		            z-index: 2;
+		            display: none;
+		        }
+		        .container .arrow_left {
+		            left: 10px;
+		        }
+		        .container .arrow_right {
+		            right: 10px;
+		        }
+		        .container:hover .arrow {
+		            display: block;
+		        }
+		        .container .arrow:hover {
+		            background-color: rgba(0,0,0,0.2);
+		        }

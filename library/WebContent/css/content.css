@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.wel-body{
+	background-image:url('images/bg.jpg');
+}
+.welcome{
+	margin:0;
+	margin-left:27%;
+	font-size:35px;
+	color:black;
+}
